@@ -1,0 +1,46 @@
+.desktop {
+    &__header {
+        position: absolute;
+        top: 1rem;
+        left: 0;
+        right: 0;
+        
+
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        background-color: transparent;
+        z-index: 100;
+
+        @include respond(tab-big){
+            display: none;
+        }
+    }
+
+
+    &__logo > svg{ 
+        max-height: 50px;
+        width: auto;
+    }
+
+
+    &__nav {
+
+        & > ul > a {
+            transition: all 300ms;
+            margin-left: 1rem;
+            font-size: 1.5rem;
+            &:hover{ color:$c-orange-m; }
+        }
+    }
+
+
+
+    &__cta {
+        font-size: 1.75rem;
+        color: $c-white;
+        background-color: $c-orange-m;
+        padding: 1rem 1.5rem;
+        border-radius: 20px;
+    }
+}

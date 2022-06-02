@@ -1,0 +1,93 @@
+{
+    "hero": {
+        "titile": "Digital Marketing",
+        "subtitle": "Digital marketing is in 2022 the best option to be where your customers are.",
+        "content": [
+            "We help companies from all sectors to develop a comprehensive digital marketing strategy to reach more customers.",
+            "On average, a person spends two and a half hours on social networks per day and you know that you have to be where your customers are."
+        ]
+    },
+    "google_ads": {
+        "img_url":"/img/images/google-ads-banner-en.png",
+        "title": "We grow your sales with digital advertising on Google Ads",
+        "content": [
+            "Google ads is the marketing services platform provided by google. It allows us to show ads on the Google search engine, YouTube, websites and Android devices.",
+            "It is a fundamental tool in any digital advertising campaign since it allows us to reach users who are interested in our product or service in real time with our ads."
+        ],
+        "services": {
+            "list": [
+                {
+                    "counter":"01",
+                    "title": "Google Search",
+                    "contnent": "It is an advertising model that focuses on showing text ads when a person does a search related to our product or service. This allows us to be at the exact moment that our potential clients are looking for us."
+                },
+                {
+                    "counter":"02",
+                    "title": "Shopping Ads",
+                    "contnent": "This is an excellent option for online stores, since it will allow you to display your products in Google results, showing name, price and photo. This allows us to show the user the product they are looking for."
+                },
+                {
+                    "counter":"03",
+                    "title": "Display Ads",
+                    "contnent": "Using the google advertiser network we can attract customers through sites linked to this network, allowing us to reach the user, for example, when he is in a news portal."
+                },
+                {
+                    "counter":"04",
+                    "title": "Remarketing",
+                    "contnent": "Remarketing is one of the most used strategies in digital advertising and is based on showing ads to people who have already interacted with our social networks or our website and serves both for branding and to increase conversions."
+                }
+            ]
+        }
+    },
+    "divisor": "Digital advertising is the advertising tool par excellence in 2022 as it is the channel that allows us to reach our potential customers more effectively, also allowing us to measure the results to optimize our strategy.",
+    "facebook_ads": {
+        "img_url":"/img/images/facebook-ads-banner.png",
+        "title": "4 billion people use social media",
+        "content": [
+            "Surely your customers are among those users, the business of social networks is the sale of advertising and they provide tools for it.", 
+            "At Smooth Design we develop advertising campaigns on social networks so that you reach people who are interested in what you offer but do not know you yet."
+        ],
+        "list": [
+            {
+                "title": "Advertising on Instagram, facebook, Linkedin, Pinterest and more",
+                "contnent": "Depending on your business, the customer segment you are targeting and the objectives of your advertising campaign, one platform or another is recommended."
+            },
+            {
+                "title": "We apply different approaches for different results ",
+                "contnent": "Each advertising campaign must have a specific objective, since communication is different in a sales-oriented campaign than in a branding-oriented one."
+            }
+        ]
+    },
+    "email_marketing": {
+        "img_url":"/img/images/emailmarketing.jpg",
+        "title": "email marketing campaigns",
+        "content": [
+            "Email is one of the most effective ways to contact our customers and one of the most profitable.", 
+            "Let's think of an ecommerce that sells hundreds of products. With an email marketing tool we can send offers to our customers based on the products they have already purchased to offer them a complementary product or offer them an offer based on their interests.",
+            "Can you imagine mixing this strategy with a digital advertising campaign?",
+            "Well that's what we do in our marketing agency."
+        ],
+        "list": [
+            {
+                "counter":"01",
+                "title": "Automation",
+                "contnent": "We developed a workflow that works autonomously by sending emails to your users based on the actions they perform."
+            },
+            {
+                "counter":"02",
+                "title": "Promotions",
+                "contnent": "We send promotional emails to your entire customer list so you can notify them of your offers in a personalized way."
+            },
+            {
+                "counter":"03",
+                "title": "Newsletters",
+                "contnent": "An excellent way to generate a relationship with your customers, since it allows you to share valuable content with them, improving the perception of your brand."
+            },
+            {
+                "counter":"04",
+                "title": "Remarketing",
+                "contnent": "end transactional content to your customer at the right time. A very common case is the 'Sarah, you forgot your cart' email, with a link back to your store."
+            }
+        ]
+    }
+}

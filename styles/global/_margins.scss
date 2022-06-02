@@ -1,0 +1,64 @@
+.mx-layout { 
+    margin: 0 8rem; 
+    @include respond(desktop-small) {
+        margin: 0 4rem;  
+    }
+
+    @include respond(phone-tab) {
+        margin: 0 2rem;
+    }
+}
+
+
+.ml-layout { 
+    margin-left: 8rem; 
+    @include respond(desktop-small) {
+        margin-left: 4rem; 
+    }
+
+    @include respond(phone-tab) {
+        margin-left: 2rem; 
+    }
+}
+
+.mr-layout { 
+    margin-right: 8rem; 
+    @include respond(desktop-small) {
+        margin-right: 4rem; 
+    }
+
+    @include respond(phone-tab) {
+        margin-right: 4rem; 
+    }
+}
+
+.px-layout { 
+    padding: 0 8rem; 
+    @include respond(desktop-small) {
+        padding: 0 4rem; 
+    }
+    @include respond(phone-tab) {
+        padding: 0 2rem; 
+    }
+}
+
+.py-layout { 
+    padding:  8rem 0; 
+    @include respond(desktop-small) {
+        padding: 4rem 0; 
+    }
+    @include respond(phone-tab) {
+        padding: 2rem; 
+    }
+}
+
+.p-layout { 
+    padding:  8rem; 
+    @include respond(desktop-small) {
+        padding: 4rem; 
+    }
+
+    @include respond(phone-tab) {
+        padding: 2rem; 
+    }
+}

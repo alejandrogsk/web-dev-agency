@@ -1,0 +1,94 @@
+{
+    "hero": {
+        "titile": "Marketing Digital",
+        "subtitle": "El marketing digital es en 2022 la mejor opción para estar donde están tu clientes.",
+        "content": [
+            "Ayudamos a empresas de todos los rubros a desarrollar una estrategia integral de marketing digital para llegar a más clientes.",
+            "De media una persona pasa dos horas y media en redes sociales por día y sabes bien que tenes que estar donde están tus clientes."
+        ]
+    },
+    "google_ads": {
+        "img_url":"/img/images/google-ads-banner-es.png",
+        "title": "Hacemos crecer sus ventas con publicidad digital en Google",
+        "content": [
+            "Google ads es la plataforma de servicios de marketing que provee google. La misma nos permite mostrar anuncios en el buscador de Google, Youtube, sitios web y dispositivos Android.",
+            "Es una herramienta fundamental en cualquier campaña de publicidad digital ya que nos permite alcanzar con nuestros anuncios a usuarios que estar interesados en nuestro producto o servicio en tiempo real."
+        ],
+        "services": {
+            "title": "Nuestro servicios de publicidad en Google Ads incluye",
+            "list": [
+                {
+                    "counter":"01",
+                    "title": "Google Search",
+                    "contnent": "Es un modelo publicitario que se centra en mostrar anuncios de texto cuando una persona hace una búsqueda relacionada a nuestro producto o servicio. Esto nos permite estar en el momento exacto en que nuestros potenciales clientes nos están buscando."
+                },
+                {
+                    "counter":"02",
+                    "title": "Shopping Ads",
+                    "contnent": "Esta es una excelente opción para tiendas online, ya que te permitirá mostrar tus productos en los resultados de google, mostrando nombre, precio y foto. Lo que nos permite enseñarle al usuario el producto que está buscando."
+                },
+                {
+                    "counter":"03",
+                    "title": "Display Ads",
+                    "contnent": "Utilizando la red de anunciantes de google podemos captar clientes mediante sitios vinculados a esta red, permitiéndonos alcanzar al usuario, por ejemplo, cuando este se encuentra en un portal de noticias."
+                },
+                {
+                    "counter":"04",
+                    "title": "Remarketing",
+                    "contnent": "El remarketing es una de las estrategias más utilizadas en publicidad digital y se basa en mostrar anuncios a personas que ya han interactuado con nuestras redes sociales o nuestro sitio web y  sirve tanto para branding como para aumentar conversiones."
+                }
+            ]
+        }
+    },
+    "divisor": "La publicidad digital es la herramienta publicitaria por excelencia en 2022 ya que es el canal que nos permite alcanzar a nuestros clientes potenciales de forma más eficaz, permitiéndonos además medir los resultados para optimizar nuestra estrategia.",
+    "facebook_ads": {
+        "img_url":"/img/images/facebook-ads-banner.png",
+        "title": "4000 millones de person utilizan redes sociales",
+        "content": [
+            "Seguro que sus clientes se encuentran entre esos usuarios, el negocio de las redes sociales es la venta de publicidad y proveen herramientas para ello.",
+            "En Smooth Design desarrollamos campañas de publicidad en redes sociales para que llegues a personas que están interesadas en lo que ofreces pero aún no te conocen."
+        ],
+        "list": [
+            {
+                "title": "Publicidad en Instagram, facebook, Linkedin, Pinterest y más",
+                "contnent": "Dependiendo de tu negocio, el segmento de clientes al que apuntes y los objetivos de tu campaña publicitaria, es recomendable una plataforma u otra."
+            },
+            {
+                "title": "Aplicamos distintos enfoques para distintos resultados",
+                "contnent": "Cada campaña publicitaria debe tener un objetivo específico, ya que la comunicación es diferente en una campaña orientada a ventas que es una orientada a branding."
+            }
+        ]
+    },
+    "email_marketing": {
+        "img_url":"/img/images/emailmarketing.jpg",
+        "title": "Campañas de email marketing",
+        "content": [
+            "El email es una de las formas más efectivas de contactar con nuestros clientes y una de las más rentables.",
+            "Pensemos en un ecommerce que vende cientos de productos. Con una herramienta de email marketing podemos enviar ofertas a nuestros clientes en función de los productos que ya han comprado para ofrecerles un producto complementario o ofrecerles una oferta en función de sus intereses.",
+            "¿Te imaginas mezclar esta estrategia con una campaña de publicidad digital?",
+            "Bueno, eso es lo que hacemos en nuestra agencia de marketing."
+        ],
+        "list": [
+            {
+                "counter":"01",
+                "title": "Automatización",
+                "contnent": "Desarrollamos un workflow que funciona de manera autónoma enviando emails a tus usuarios en función de las acciones que estos realizan."
+            },
+            {
+                "counter":"02",
+                "title": "Promociones",
+                "contnent": "Enviamos emails promocionales a toda tu lista de clientes para que puedas notificarles de  tus ofertas de manera personalizada."
+            },
+            {
+                "counter":"03",
+                "title": "Newsletters",
+                "contnent": "Una excelente forma de generar una relación con tus clientes, ya que te permite compartir contenido de valor con ellos, mejorando la percepción de tu marca."
+            },
+            {
+                "counter":"04",
+                "title": "Remarketing",
+                "contnent": "Envía contenido transaccional a tu cliente de manera personalizada. Un caso muy común es el email de “Juan olvidaste tu carrito”, con un enlace de nuevo a tu tienda."
+            }
+        ]
+    }
+}

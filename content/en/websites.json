@@ -1,0 +1,88 @@
+{
+    "hero": {
+        "title":"Web Development",
+        "subtitle": "A website is the best digital marketing tool that your company can have, that's why you are here.",
+        "content": [
+            "Each company has its specific needs, depending on the product or service it sells.",
+            "We design websites to client specifications, but we also advise clients who know they need a website but don't know where to start.",
+            "We work with established companies that want to give a more institutional image and small businesses that need to develop their online presence for the first time."
+        ]
+    },
+    "services": {
+        "top_title":"services",
+        "title":"What do we do?",
+        "services_list": [
+            {
+                "img_url":"/img/icons/design-icon.png",
+                "title":"Web Design",
+                "description":"We design a custom website, visually attractive and adaptable to multiple devices."
+            },
+            {
+                "img_url":"/img/icons/code-icon.png",
+                "title":"Web Development",
+                "description":"Once the design is approved, we develop your website using the most used tools in the industry."
+            },
+            {
+                "img_url":"/img/icons/config-icon.png",
+                "title":"Configuration and Maintenance",
+                "description":"Hosting, domain, SSL and other configurations, we have everything covered."
+            }
+        ]
+    },
+    "type_of_webs": {
+        "top_title":"Websites",
+        "title":"types of websites",
+        "webs_list": [
+            {
+                "count":"01",
+                "title":"Corporate Sites",
+                "description":"Websites designed mainly for medium or large companies, also for B2B companies."
+            },
+            {
+                "count":"02",
+                "title":"Professional Portfolios",
+                "description":"Every professional who works autonomously needs a portfolio to show their services or tell their experiences."
+            },
+            {
+                "count":"03",
+                "title":"Landing Pages",
+                "description":"It is what you are looking for if what you need is to promote a specific product or service."
+            },
+            {
+                "count":"04",
+                "title":"Booking Sites",
+                "description":"For cases where you need your clients to book an appointment for themselves."
+            },
+            {
+                "count":"05",
+                "title":"News Sites",
+                "description":"News portals for media companies, journalists and influencers."
+            },
+            {
+                "count":"06",
+                "title":"Sites with Multiple Languages",
+                "description":"For companies with international business relationships."
+            }
+        ]
+    },
+    "for_who": {
+        "image": { "url":"/img/images/webpage-1.jpg", "alt":"Business web development agency"},
+        "title":"Who needs a website?",
+        "cases":[
+            {
+                "title":"Professionals who sell services", 
+                "description":"Are you an accountant, a lawyer, an architect, or another professional, and do you need a web portfolio to show your services or work that you have done?"
+            },
+            {
+                "title":"Customized product or service companies", 
+                "description":"This is the case of real estate agencies, travel agencies and insurance agencies that sell standardized packages."
+            },
+            {
+                "title":"Industrial and/or international companies", 
+                "description":"Companies that are engaged in the manufacture, assembly or distribution of physical products, companies that import and export goods and services and need a site in multiple languages."
+            }
+        ]
+    }
+
+
+}

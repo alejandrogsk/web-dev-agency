@@ -1,0 +1,11 @@
+.ecommerce-patforms {
+    &__img {
+        width: 100%;
+        height: auto;
+
+        @screen md {
+            max-height:600px;
+            width: auto;
+        }
+    }
+}

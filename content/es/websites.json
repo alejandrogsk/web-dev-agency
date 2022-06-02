@@ -1,0 +1,88 @@
+{
+    "hero": {
+        "title":"Desarrollo Web",
+        "subtitle": " Un sitio web es la mejor herramienta de marketing digital que tu empresa pueda tener, por eso estás acá.",
+        "content": [
+            "Cada empresa tiene sus necesidades específicas, dependiendo del producto o servicio que venda.",
+            "Nosotros diseñamos sitios web siguiendo las especificaciones del cliente, pero también aconsejamos a clientes que saben que necesitan un sitio web, pero no saben por dónde empezar.",
+            "Trabajamos con empresas establecidas que quieren dar una imagen más institucional y pequeños negocios que necesitan desarrollar su presencia online por primera vez."
+        ]
+    },
+    "services": {
+        "top_title":"servicios",
+        "title":"¿Que hacemos?",
+        "services_list": [
+            {
+                "img_url":"/img/icons/design-icon.png",
+                "title":"Diseño Web",
+                "description":"Diseñamos una web a medida, atractiva visualmente y adaptable a múltiples dispositivos."
+            },
+            {
+                "img_url":"/img/icons/code-icon.png",
+                "title":"Desarrollo Web",
+                "description":"Una vez aprobado el diseño desarrollamos tu sitio web empleando las herramientas más utilizadas en la industria"
+            },
+            {
+                "img_url":"/img/icons/config-icon.png",
+                "title":"Configuración y Mantenimiento",
+                "description": "Hosting, dominio, SSL y demás configuraciones, todo lo tenemos cubierto"
+            }
+        ]
+    },
+    "type_of_webs": {
+        "top_title":"Websites",
+        "title":"Tipos de sitios web",
+        "webs_list": [
+            {
+                "count":"01",
+                "title":"Sitios Corporativos",
+                "description":"Sitios web pensados principalmente para empresas medianas o grandes, también para empresas B2B."
+            },
+            {
+                "count":"02",
+                "title":"Portfolios Profesionales",
+                "description":"Todo profesional que trabaje de manera autónoma necesita un portfolio para mostrar sus servicios o contar sus experiencias."
+            },
+            {
+                "count":"03",
+                "title":"Landing Pages",
+                "description":"Es lo que estás buscando si lo que necesitas es promocionar un producto o servicio específico."
+            },
+            {
+                "count":"04",
+                "title":"Sitios de reservas",
+                "description":"Para casos en los que necesitas que tus clientes reserven un turno por sí mismos."
+            },
+            {
+                "count":"05",
+                "title":"Sitios de Noticias",
+                "description":"Portales de noticias para empresas de medios, periodistas e influencers."
+            },
+            {
+                "count":"06",
+                "title":"Sitios con Múltiples Idiomas",
+                "description":"Para compañías que cuentan con relaciones comerciales internacionales"
+            }
+        ]
+    },
+    "for_who": {
+        "image": { "url":"/img/images/webpage-1.jpg", "alt":"Agencia de desarrollo web para pymes"},
+        "title":"¿Quienes necesitan un sitio web?",
+        "cases":[
+            {
+                "title":"Profesionales que venden servicios",
+                "description":"¿Sos una contadora, un abogado, una arquitecta, etc, y necesitas un portfolio web para mostrar tus servicios o trabajos que hayas realizado?"
+            },
+            {
+                "title":"Compañías de productos y servicios personalizados",
+                "description":"Este es el caso de las inmobiliarias, agencias de viajes y agencias de seguros que venden paquetes estandarizados."
+            },
+            {
+                "title":"Empresas industriales y/o internacionales",
+                "description":"Empresas que se dedican a la fabricación, ensamblado o distribución de productos físicos, empresas que importan y exportan bienes y servicios y necesitan un sitio en múltiples idiomas."
+            }
+        ]
+    }
+
+
+}

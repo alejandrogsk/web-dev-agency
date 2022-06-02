@@ -1,0 +1,111 @@
+{
+    "hero":{
+        "title":"Ecommerce",
+        "subtitle":" We leave everything ready so that your business has the ability to sell 24/7.",
+        "content": [
+            "Having an online store is an essential requirement for any company that sells products in 2022.",
+         "It doesn't matter if you're in retail or wholesale, your customers want to see what your business has to offer.",
+         "At Smooth Design we take care of the technical and design aspects to help you get your online store selling as quickly as possible."
+        ]
+    },
+    "services": {
+        "top_title":"Services",
+        "title":"How can we help?",
+        "services_list": [
+            {
+                "img_url":"/img/icons/design-icon.png",
+                "title":"Visual design of your store",
+                "description":"We take care of the design aspects so that your store has an attractive and professional look"
+            },
+            {
+                "img_url":"/img/icons/code-icon.png",
+                "title":"Development",
+                "description":"We take care of the development of your store, using the technology that best suits your particular case"
+            },
+            {
+                "img_url":"/img/icons/config-icon.png",
+                "title":"Configuration and maintenance",
+                "description":"Custom domain, hosting, SSL certificate, all included free for one year"
+            },
+            {
+                "img_url":"/img/icons/panel-icon.png",
+                "title":"control panel",
+                "description":"Through a control panel you can carry out a correct control of the inventory of your store"
+            },
+            {
+                "img_url":"/img/icons/plug-icon.png",
+                "title":"Marketplaces Integration",
+                "description":"Integrate your online store with marketplaces so you can sell your products on third-party platforms"
+            },
+            {
+                "img_url":"/img/icons/socialmedia-icon.png",
+                "title":"Synchronization with social networks",
+                "description":"We synchronize the products of your store with social networks such as instagram and facebook"
+            }
+
+        ]
+    },
+    "payments": {
+        "top_title": "Payments",
+        "title":"Payment platforms integration",
+        "platforms": [
+            {
+                "img_url":"/img/payment/ApplePay.png",
+                "name":"Apple Pay"
+            },
+            {
+                "img_url":"/img/payment/GooglePay.png",
+                "name":"Google Pay"
+            },
+            {
+                "img_url":"/img/payment/MercadoPago.png",
+                "name":"Mercado Pago"
+            },
+            {
+                "img_url":"/img/payment/PayPal.png",
+                "name":"PayPal"
+            },
+            {
+                "img_url":"/img/payment/PayU.png",
+                "name":"PayU"
+            },
+            {
+                "img_url":"/img/payment/ShopPay.png",
+                "name":"ShopPay"
+            },
+            {
+                "img_url":"/img/payment/Stripe.png",
+                "name":"Stripe"
+            }
+            
+        ]
+    },
+    "mobile_content": {
+        "title": "Mobile Design",
+        "subtitle": "In all our designs we place special emphasis on design for tablets and smartphones.",
+        "img_url": "/img/images/ecommerce-mockup.png",
+        "title_two":"More than 60% of online purchases are made from smartphones",
+        "subtitle_two":"Hence the importance of mobile design in any ecommerce project."
+    },
+    "platforms": {
+        "image":{
+            "url":"/img/images/ecommerce-page-1.jpg",
+            "alt":"Agency specialized in e-commerce"
+        },
+        "images": [
+            {
+                "url": "/img/images/ecommerce-shopify.png",
+                "alt": "Specialist shopify store development agency"
+            },
+            {
+                "url": "/img/images/ecommerce-woocommerce.png",
+                "alt": "Agency specialized in woocommerce development"
+            }
+        ],
+        "content": [
+            "We work with the most popular platforms in the industry and also do custom development if required.",
+            "We always do our best and advise our clients on what their best options are according to their particular case.",
+            "If what you want is to take the next step in your ecommerce project, we invite you to tell us more about your project."
+        ]
+    }
+}

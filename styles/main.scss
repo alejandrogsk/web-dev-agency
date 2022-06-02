@@ -1,0 +1,27 @@
+@import "./global/variables";
+@import "./global/global";
+@import "./global/mixins";
+@import "./global/margins";
+@import "./global/fonts";
+//Specials
+@import "./components/points";
+//Components
+@import "./components/navbar-desktop";
+@import "./components/navbar-mobile";
+@import "./components/slider";
+@import "./components/footer";
+//By Pages
+//Home
+@import "./pages/home/hero";
+@import "./pages/home/methods";
+@import "./pages/home/services";
+@import "./pages/home/blog-posts";
+//Ecommerce
+@import "./pages/ecommerce/service-item";
+@import "./pages/ecommerce/mobile-section";
+@import "./pages/ecommerce/platforms";
+
+//Websites
+@import "./pages/websites/web-types-section";
+
+@import "./components/navbar-desktop.scss";

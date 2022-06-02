@@ -1,0 +1,118 @@
+{
+    "hero":{
+        "title":"Ecommerce",
+        "subtitle":"Dejamos todo listo para que tu empresa tenga la habilidad de vender 24/7.",
+        "content": [
+            "Tener una tienda online es un requisito indispensable para cualquier empresa que comercialice productos en 2022.",
+         "No importa si se dedica al comercio minorista o mayorista, sus clientes quieren ver que tiene tu empresa para ofrecer.",
+         "En Smooth Design nos ocupamos de los aspectos técnicos y de diseño para ayudarte a tener tu tienda online vendiendo tán pronto como sea posible."
+            
+        ]
+    },
+    "services": {
+        "top_title":"Servicios",
+        "title":"¿Cómo te podemos ayudar?",
+        "services_list": [
+            {
+                "img_url":"/img/icons/design-icon.png",
+                "title":"Diseño visual de tu tienda",
+                "description":"Nos encargamos de los aspectos de diseño para que tu tienda tenga un look atractivo y profesional"
+            },
+            {
+                "img_url":"/img/icons/code-icon.png",
+                "title":"Desarrollo integral",
+                "description":"Nos ocupamos del desarrollo de tu tienda, utilizando la tecnología que mejor se adapte a tu caso particular"
+            },
+            {
+                "img_url":"/img/icons/config-icon.png",
+                "title":"Configuración y mantenimiento",
+                "description":"Dominio, hosting, certificado SSL, todo esto está incluido en el servicio al igual que cualquier problema de configuración"
+            },
+            {
+                "img_url":"/img/icons/panel-icon.png",
+                "title":"Panel de control",
+                "description":"Mediante un panel de control podrás llevar a cabo un correcto control del inventario de tu tienda"
+            },
+            {
+                "img_url":"/img/icons/plug-icon.png",
+                "title":"Integración con marketplaces",
+                "description":"Integra tu tienda online con marketplaces para que puedas vender tus productos en plataformas de terceros"
+            },
+            {
+                "img_url":"/img/icons/socialmedia-icon.png",
+                "title":"Sincronización con redes sociales",
+                "description":"Sincronizamos los productos de tu tienda con redes sociales como instagram y facebook"
+            }
+
+        ]
+    },
+    "payments": {
+        "top_title": "Gestioná cobros",
+        "title":"Integración con plataformas de pagos",
+        "platforms": [
+            {
+                "img_url":"/img/payment/ApplePay.png",
+                "name":"Apple Pay"
+            },
+            {
+                "img_url":"/img/payment/GooglePay.png",
+                "name":"Google Pay"
+            },
+            {
+                "img_url":"/img/payment/MercadoPago.png",
+                "name":"Mercado Pago"
+            },
+            {
+                "img_url":"/img/payment/PayPal.png",
+                "name":"PayPal"
+            },
+            {
+                "img_url":"/img/payment/PayU.png",
+                "name":"PayU"
+            },
+            {
+                "img_url":"/img/payment/ShopPay.png",
+                "name":"ShopPay"
+            },
+            {
+                "img_url":"/img/payment/Stripe.png",
+                "name":"Stripe"
+            }
+            
+        ]
+    },
+    "mobile_content": {
+        "title": "Diseño Móvil",
+        "subtitle": "En todos nuestros diseños hacemos especial énfasis en el diseño para tablets y smartphones.",
+        "img_url": "/img/images/ecommerce-mockup.png",
+        "images": [
+            "/img/images/ecommerce-mockup-en-1.png",
+            "/img/images/ecommerce-mockup-en-2.png",
+            "/img/images/ecommerce-mockup-en-3.png"
+        ],
+        "title_two":"Más de un 60% de las compras por internet se realizan desde un smartphone",
+        "subtitle_two":"De ahí la importancia del diseño móvil en todo proyecto de ecommerce."
+    },
+    "platforms": {
+        "image":{
+            "url":"/img/images/ecommerce-page-1.jpg",
+            "alt":"Agencia especializada en ecommerce"
+        },
+        "images": [
+            {
+                "url": "/img/images/ecommerce-tiendanube.png",
+                "alt": "Agencia especializada en tienda nube"
+            },
+            {
+                "url": "/img/images/ecommerce-woocommerce.png",
+                "alt": "Agencia especializada en desarrollo con woocommerce"
+            }
+            
+        ],
+        "content": [
+            "Trabajamos con las plataformas más populares de la industria y también realizamos desarrollo a medida si es necesario.",
+            "Siempre ponemos lo mejor de nosotros y aconsejamos a nuestros clientes sobre cuáles son sus mejores opciones según su caso particular.",
+            "Si lo que desea es dar el siguiente paso en su proyecto de ecommerce, te invitamos a que nos cuente más acerca de su proyecto."
+        ]
+    }
+}

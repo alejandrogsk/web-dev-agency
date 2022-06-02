@@ -1,0 +1,88 @@
+{
+    "hero": {
+        "title":"Diseño y desarrollo de soluciones digitales",
+        "subtitle": "Brindamos nuestros conocimientos y recursos para que su empresa esté al alcance de las expectativas y nuevas necesidades de sus clientes.",
+        "button": "Contactanos"
+    },
+    "methodology": {
+        "before_title": "Metodología",
+        "title": "Cómo trabajamos",
+        "methods_list": [
+            {
+                "number": "01",
+                "title": "Análisis",
+                "content": "Llevamos adelante un estudio sobre las necesidades de tu proyecto para poder asesorarte de la mejor manera."
+            },
+            {
+                "number": "02",
+                "title": "Diseño",
+                "content": "En función de tus necesidades diseñamos una solución a la medida."
+            },
+            {
+                "number": "03",
+                "title": "Desarrollo",
+                "content": "Implementamos su solución con las herramientas más utilizadas en el sector."
+            }
+
+        ]
+    },
+    "services": {
+        "before_title": "servicios",
+        "title":"Qué es lo que hacemos",
+        "services_list": [
+            {
+                "title":"Diseño UX/UI",
+                "img_url":"/img/images/ecommerce.jpg",
+                "link": "ver más"
+            },
+            {
+                "title":"Desarrollo de ecommerce",
+                "img_url":"/img/images/uxui.jpg",
+                "link": "ver más"
+            },
+            {
+                "title":"Desarrollo web",
+                "img_url":"/img/images/ecommerce.jpg",
+                "link": "ver más"
+            },
+            {
+                "title":"Marketing Digital",
+                "img_url":"/img/images/uxui.jpg",
+                "link": "ver más"
+            }
+        ]
+    },
+    "blog": {
+        "before_title": "noticias",
+        "title": "Tal Vez te interese ver algunas de nuestras últimas publicaciones.",
+        "posts": [
+            {
+                "img_url": "/img/images/blog-1.jpg",
+                "title": "¿Qué dicen los expertos del ecommerce en 2022?",
+                "date": "May 22",
+                "link": {
+                    "name": "ver más",
+                    "path": "#"
+                }
+            },
+            {
+                "img_url": "/img/images/blog-2.jpg",
+                "title": "Tendencias de ecommerce para 2022",
+                "date": "Jul 15",
+                "link": {
+                    "name": "ver más",
+                    "path": "#"
+                }
+            },
+            {
+                "img_url": "/img/images/blog-3.jpg",
+                "title": "10 Tips de marketing digital que puedes implementar ya mismo",
+                "date": "Octubre 12",
+                "link": {
+                    "name": "ver más",
+                    "path": "#"
+                }
+            }
+        ]
+    }
+}

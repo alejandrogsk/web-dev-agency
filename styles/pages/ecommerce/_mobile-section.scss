@@ -1,0 +1,15 @@
+.ecommerce-mobile {
+    &__section {
+        display: grid;
+        align-items: center;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,max-content);
+        justify-items: center;
+        
+        @screen hero-custom {
+            grid-template-columns: 1fr max-content 1fr;
+
+        }
+    }
+}
