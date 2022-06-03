@@ -14,7 +14,6 @@
     @include respond(phone-tab) {
         padding-top: 2rem;
         padding-bottom: 2rem;
-        align-items: flex-start;
     }   
 
     & > ul {
@@ -24,9 +23,8 @@
             
         }
 
-        @include respond(mobile-small) {
+        @include respond(mobile) {
             flex-direction: column;
-            align-items: flex-start;
         }
 
         & > a {
@@ -37,12 +35,11 @@
                 color: $c-orange-m;
 
             }
-
-            @include respond(phone-tab) {
-                width: 100%;
+            @include respond(mobile) {
+                margin-right: 0;
+                margin-bottom: 1rem;
                 text-align: center;
-            }   
-        
+            }
         }
     }
 

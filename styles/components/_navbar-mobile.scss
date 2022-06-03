@@ -145,8 +145,8 @@
             transition: all .2s;
         }
 
-        &::before { top: -.6rem; }
-        &::after {top: .6rem; }
+        &::before { top: -.6rem;@include respond(mobile) {top: -.7rem;} }
+        &::after {top: .6rem;@include respond(mobile) {top: .7rem;}  }
     }
 
     &--button:hover &--icon::before {
