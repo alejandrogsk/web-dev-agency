@@ -10,3 +10,40 @@
 .a-t-800  { animation-duration: 800ms; }
 .a-t-900  { animation-duration: 900ms; }
 .a-t-1000{ animation-duration: 1000ms; }
+
+
+
+//Underlie
+.underline {
+    display: inline;
+position: relative;
+overflow: hidden;
+
+    &__orange {
+        &:after { background: $c-orange-m; }
+    }
+
+    &__white {
+        &:after { background: $c-white }
+    }
+&:after {
+    content: "";
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    width: 0;
+    bottom: -1px;
+    height: 2px;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    }
+    
+    &:hover:after,
+    &:focus:after,
+    &:active:after {
+    left: 0;
+    right: auto;
+    width: 100%;
+    }
+}

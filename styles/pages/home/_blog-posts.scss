@@ -35,7 +35,7 @@
 
             & > .home-bs__grid--content {
                 display: grid;
-                grid-template-columns: repeat(2,1fr);
+                grid-template-columns: 1fr max-content;
                 padding: 2rem;
                 bottom: -5rem;
                 right: 0;
@@ -54,7 +54,6 @@
                     color: $c-orange-m;
                     font-size: 1.5rem;
                     text-transform: capitalize;
-                    text-decoration: underline;
                 }
 
                 & > span {

@@ -26,7 +26,7 @@ const BlogPostsSection = ({ blog }) => {
 
                                 <span>{item.date}</span>
 
-                                <a className="">
+                                <a className="underline underline__white">
                                     {item.link.name}
                                 </a>
                             </div>

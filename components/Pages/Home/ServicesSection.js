@@ -26,7 +26,7 @@ const ServicesSection = ({services}) => {
                  <img src={item.img_url} />
                 </div>
                 <h3 className=''>{item.title}</h3>
-                <a className=''>{item.link}</a>
+                <a className='underline underline__orange'>{item.link}</a>
               </div>
               </Link>
             ))
