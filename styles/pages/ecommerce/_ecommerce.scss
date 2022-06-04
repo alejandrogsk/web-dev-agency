@@ -1,0 +1,31 @@
+.ecommerce__payments {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    & > h2 {text-transform: none;}
+}
+
+.ecommerce__responsive-section {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    gap: 2rem;
+    align-items: center;
+    background-color: $c-orange-m;
+
+    @include respond(desktop-small){
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    & > div > h2,h3,p {
+        color:$c-white;
+
+        @include respond(desktop-small){
+            text-align: center;
+        }
+    }
+
+    & > div > h2,h3 {
+        margin-bottom: 1rem;
+    }
+}

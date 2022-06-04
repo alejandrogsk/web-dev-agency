@@ -11,7 +11,7 @@
     "services": {
         "top_title":"servicios",
         "title":"¿Que hacemos?",
-        "services_list": [
+        "list": [
             {
                 "img_url":"/img/icons/design-icon.png",
                 "title":"Diseño Web",
@@ -32,7 +32,7 @@
     "type_of_webs": {
         "top_title":"Websites",
         "title":"Tipos de sitios web",
-        "webs_list": [
+        "list": [
             {
                 "count":"01",
                 "title":"Sitios Corporativos",
@@ -68,7 +68,7 @@
     "for_who": {
         "image": { "url":"/img/images/webpage-1.jpg", "alt":"Agencia de desarrollo web para pymes"},
         "title":"¿Quienes necesitan un sitio web?",
-        "cases":[
+        "list":[
             {
                 "title":"Profesionales que venden servicios",
                 "description":"¿Sos una contadora, un abogado, una arquitecta, etc, y necesitas un portfolio web para mostrar tus servicios o trabajos que hayas realizado?"

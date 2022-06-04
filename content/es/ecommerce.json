@@ -12,7 +12,7 @@
     "services": {
         "top_title":"Servicios",
         "title":"¿Cómo te podemos ayudar?",
-        "services_list": [
+        "list": [
             {
                 "img_url":"/img/icons/design-icon.png",
                 "title":"Diseño visual de tu tienda",
@@ -94,9 +94,9 @@
         "subtitle_two":"De ahí la importancia del diseño móvil en todo proyecto de ecommerce."
     },
     "platforms": {
-        "image":{
+        "image": {
             "url":"/img/images/ecommerce-page-1.jpg",
-            "alt":"Agencia especializada en ecommerce"
+            "alt":"Diseño y desarrollo de ecommerce a medida"
         },
         "images": [
             {

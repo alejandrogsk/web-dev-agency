@@ -9,6 +9,7 @@ import ServicesSection from '../components/Pages/Websites/ServicesSection';
 import WebTypesSection from '../components/Pages/Websites/WebTypesSection';
 import ForWhoSection from '../components/Pages/Websites/ForWhoSection';
 import HeroService from '../components/Pages/Common/HeroService';
+import ServicesGridBlock from '../components/Pages/Common/ServicesGridBlock';
 
 const websites = ({webPageData}) => {
   const data = webPageData;
@@ -23,9 +24,11 @@ const websites = ({webPageData}) => {
       <Layout>
         <main>
           <HeroService data={data.hero} />
-          <ServicesSection data={data.services} />
-          <WebTypesSection data={data.type_of_webs} />
-          <ForWhoSection data={data.for_who} />
+          <ServicesGridBlock data={data.services} />
+          <ServicesGridBlock data={data.type_of_webs} bgcolor="orange" />
+          {/* <ServicesSection data={data.services} /> */}
+          {/* <WebTypesSection data={data.type_of_webs} /> */}
+          {/* <ForWhoSection data={data.for_who} /> */}
         </main>
       </Layout>
 

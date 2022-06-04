@@ -11,7 +11,7 @@
     "services": {
         "top_title":"services",
         "title":"What do we do?",
-        "services_list": [
+        "list": [
             {
                 "img_url":"/img/icons/design-icon.png",
                 "title":"Web Design",
@@ -32,7 +32,7 @@
     "type_of_webs": {
         "top_title":"Websites",
         "title":"types of websites",
-        "webs_list": [
+        "list": [
             {
                 "count":"01",
                 "title":"Corporate Sites",
@@ -68,7 +68,7 @@
     "for_who": {
         "image": { "url":"/img/images/webpage-1.jpg", "alt":"Business web development agency"},
         "title":"Who needs a website?",
-        "cases":[
+        "list":[
             {
                 "title":"Professionals who sell services", 
                 "description":"Are you an accountant, a lawyer, an architect, or another professional, and do you need a web portfolio to show your services or work that you have done?"

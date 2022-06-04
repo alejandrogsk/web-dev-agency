@@ -4,12 +4,12 @@ const MobileSection = ({data}) => {
     const {title, subtitle, img_url, title_two, subtitle_two} = data;
 
   return (
-    <section className="ecommerce-mobile__section	 bg-ui-orange-main py-20 md:py-36 px-4  sm:px-8  md:px-12 mx:px-20">
+    <section className="ecommerce__responsive-section p-layout">
         <div>
-            <h2 className="text-3xl md:text-4xl	font-semibold text-white">{title}</h2>
-            <p className="pt-2 text-xl text-white">{subtitle}</p>
+            <h2 className="">{title}</h2>
+            <p className="">{subtitle}</p>
         </div>
-        <div className="relative">
+        <div style={{position:"relative"}}>
             <Image width="625" height="429" src={img_url}/>
         </div>
         <div>

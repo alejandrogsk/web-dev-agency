@@ -11,7 +11,7 @@
     "services": {
         "top_title":"Services",
         "title":"How can we help?",
-        "services_list": [
+        "list": [
             {
                 "img_url":"/img/icons/design-icon.png",
                 "title":"Visual design of your store",
@@ -88,9 +88,9 @@
         "subtitle_two":"Hence the importance of mobile design in any ecommerce project."
     },
     "platforms": {
-        "image":{
+        "image": {
             "url":"/img/images/ecommerce-page-1.jpg",
-            "alt":"Agency specialized in e-commerce"
+            "alt":"Custom design and development of ecommerce"
         },
         "images": [
             {
