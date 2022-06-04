@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Layout from "../components/Global/Layout";
-import HeroSection from '../components/Pages/Ecommerce/HeroSection';
 import MobileSection from '../components/Pages/Ecommerce/MobileSection';
 import PaymentPlatformsSections from '../components/Pages/Ecommerce/PaymentPlatformsSections';
 import PlatformsSections from '../components/Pages/Ecommerce/PlatformsSections';
@@ -10,6 +9,7 @@ import ServicesSection from '../components/Pages/Ecommerce/ServicesSection';
 import EcommerceSpanish from "../content/es/ecommerce.json";
 import EcommerceEnglish from "../content/en/ecommerce.json";
 import HeadComponent from '../components/Global/Head';
+import HeroService from '../components/Pages/Common/HeroService';
 
 export default function Home({ ecommerceData }) {
   // const { locale } = useRouter();
@@ -25,7 +25,7 @@ export default function Home({ ecommerceData }) {
 
     <Layout>
         <main className="relative overflow-x-clip">
-           <HeroSection data={data.hero} />
+           <HeroService data={data.hero} />
            <ServicesSection data={data.services}/>
            <PaymentPlatformsSections data={data.payments}/>
            <MobileSection data={data.mobile_content} />

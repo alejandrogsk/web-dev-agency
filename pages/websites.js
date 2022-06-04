@@ -5,10 +5,10 @@ import WebsitesEn from '../content/en/websites.json';
 import HeadComponent from '../components/Global/Head';
 import Layout from '../components/Global/Layout';
 
-import HeroSection from '../components/Pages/Websites/HeroSection';
 import ServicesSection from '../components/Pages/Websites/ServicesSection';
 import WebTypesSection from '../components/Pages/Websites/WebTypesSection';
 import ForWhoSection from '../components/Pages/Websites/ForWhoSection';
+import HeroService from '../components/Pages/Common/HeroService';
 
 const websites = ({webPageData}) => {
   const data = webPageData;
@@ -22,7 +22,7 @@ const websites = ({webPageData}) => {
       />
       <Layout>
         <main>
-          <HeroSection  data={data.hero} />
+          <HeroService data={data.hero} />
           <ServicesSection data={data.services} />
           <WebTypesSection data={data.type_of_webs} />
           <ForWhoSection data={data.for_who} />
