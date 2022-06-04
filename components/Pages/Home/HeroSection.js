@@ -7,24 +7,28 @@ const HeroSection = ({ hero }) => {
 
     return (
         <>
-            <section className="home-hs">
+            <section className="home-hs ">
                 <div className="home-hs__content ml-layout">
-                    <h1>
-                        {title} <span className="orange-point">.</span>
+                    <h1 className="a-slideInLeft a-t-1000">
+                        {title}<span className="orange-point">.</span>
                     </h1>
 
-                    <p>{subtitle}</p>
+                    <p className="a-slideInLeft a-t-700">{subtitle}</p>
 
-                    <a>{button}</a>
+                    <div className="home-hs_cta a-slideInLeft a-t-500">
+                        <a>{button}</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z"/></svg>
+                    </div>
+
                 </div>
             
-                <div className="home-hs__img">
+                <div className="home-hs__img ">
                     <img
-                        className="home-hs__img-laptop"
+                        className="home-hs__img-laptop a-slideInRight a-t-1000"
                         src="/img/images/home-laptop.png"
                     />
 
-                    <div className="home-hs__img-card">
+                    <div className="home-hs__img-card a-slideInRight  a-t-600">
                         <div>
                             <span>+</span>
                             <h6>200%</h6>

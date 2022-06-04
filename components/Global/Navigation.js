@@ -1,8 +1,23 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-
+import { useRouter } from "next/router";
 const NavigationDesktop = () => {
+    const {locale}  = useRouter()
+    let homeTitle = "Home";
+    let cta = "let's start"
+    if(locale === "es") {
+        homeTitle = "Inicio"
+        cta = "Contanos Más"
+    }
+
+    const menuContent = [
+         { title: homeTitle, link: "/" },
+         { title: "UX/UI", link: "/uxui" },
+         { title: "Ecommerce", link: "/ecommerce" },
+         { title: "Websites", link: "/websites" },
+         { title: "Marketing", link: "/marketing" },
+    ]
+
     return (
         <header className="desktop__header px-layout">
             <div className="desktop__logo">
@@ -44,34 +59,16 @@ const NavigationDesktop = () => {
                 </svg>
             </div>
             <nav className="desktop__nav">
-                <ul className="">
-                    <Link href="/">
-                    <a >
-                        Home
-                    </a>
-                    </Link>
-                    <a>
-                        UX/UI
-                    </a>
-                    <Link href="/ecommerce">
-                    <a>
-                        Ecommerce
-                    </a>
-                    </Link>
-                    <Link href="/websites">
-                    <a>
-                        Websites
-                    </a>
-                    </Link>
-                    <a>
-                        Marketing
-                    </a>
+                <ul>
+                    {
+                        menuContent.map((element, i) => <Link href={element.link} key={i}><a>{element.title}</a></Link>)
+                    }
                 </ul>
             </nav>
             <a
                 className="desktop__cta"
             >
-                Contactanos
+                {cta}
             </a>
         </header>
     );

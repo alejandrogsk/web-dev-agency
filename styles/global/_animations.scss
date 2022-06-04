@@ -1,0 +1,12 @@
+.a-slideInLeft { animation: slideInLeft; @include respond(tab){ animation: slideInUp; } }
+.a-slideInRight { animation: slideInRight; @include respond(tab){ animation: slideInUp; } }
+
+
+.a-t-300  { animation-duration: 300ms; }
+.a-t-400  { animation-duration: 400ms; }
+.a-t-500  { animation-duration: 500ms; }
+.a-t-600  { animation-duration: 600ms; }
+.a-t-700  { animation-duration: 700ms; }
+.a-t-800  { animation-duration: 800ms; }
+.a-t-900  { animation-duration: 900ms; }
+.a-t-1000{ animation-duration: 1000ms; }

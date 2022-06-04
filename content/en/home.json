@@ -54,7 +54,7 @@
     },
     "blog": {
         "before_title": "news",
-        "title": "You may be interested in seeing some of our latest posts.",
+        "title": "You may be interested in seeing some of our latest posts",
         "posts": [
             {
                 "img_url": "/img/images/blog-1.jpg",

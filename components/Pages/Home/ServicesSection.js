@@ -15,7 +15,7 @@ const ServicesSection = ({services}) => {
 
         
       <h6 className=''>{before_title}</h6>
-      <h2 className=''>{title}</h2>
+      <h2 className=''>{title}<span className="orange-point">.</span></h2>
 
         <div className='home-ss__grid '>
           {

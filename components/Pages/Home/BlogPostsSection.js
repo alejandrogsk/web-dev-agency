@@ -6,11 +6,11 @@ const BlogPostsSection = ({ blog }) => {
     return (
         <section className="p-layout home-bs">
 
-                <h6 className="">
+                <h6>
                     {before_title}
                 </h6>
-                <h2 className="">
-                    {title}
+                <h2>
+                    {title}<span className="orange-point">.</span>
                 </h2>
 
                 <div className="home-bs__grid">

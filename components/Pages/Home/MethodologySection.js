@@ -8,12 +8,12 @@ const MethodologySection = ({methodology}) => {
     <section className='home-ms px-layout'>
       <div className='home-ms__content'>
         <h6>{before_title}</h6>
-        <h2>{title}</h2>
+        <h2>{title}<span className="orange-point">.</span></h2>
 
         <div className='home-ms__content-grid'>
           {
             methods_list.map((element,i ) => (
-              <div key={i} className='home-ms__content-grid--item'>
+              <div key={i} className='home-ms__content-grid--item '>
                 <span className=''>{element.number}</span>
                 <h3 className=''>{element.title}</h3>
                 <p className=''>{element.content}</p>

@@ -54,7 +54,7 @@
     },
     "blog": {
         "before_title": "noticias",
-        "title": "Tal Vez te interese ver algunas de nuestras últimas publicaciones.",
+        "title": "Tal Vez te interese ver algunas de nuestras últimas publicaciones",
         "posts": [
             {
                 "img_url": "/img/images/blog-1.jpg",
