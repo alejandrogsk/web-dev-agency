@@ -103,9 +103,15 @@
             }
         ],
         "content": [
-            "We work with the most popular platforms in the industry and also do custom development if required.",
-            "We always do our best and advise our clients on what their best options are according to their particular case.",
-            "If what you want is to take the next step in your ecommerce project, we invite you to tell us more about your project."
+            {
+                "description":"We work with the most popular platforms in the industry and also do custom development if required."
+            },
+            {
+                "description":"We always do our best and advise our clients on what their best options are according to their particular case."
+            },
+            {
+                "description":"If what you want is to take the next step in your ecommerce project, we invite you to tell us more about your project."
+            }   
         ]
     }
 }

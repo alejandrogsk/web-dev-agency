@@ -110,9 +110,15 @@
             
         ],
         "content": [
-            "Trabajamos con las plataformas más populares de la industria y también realizamos desarrollo a medida si es necesario.",
-            "Siempre ponemos lo mejor de nosotros y aconsejamos a nuestros clientes sobre cuáles son sus mejores opciones según su caso particular.",
-            "Si lo que desea es dar el siguiente paso en su proyecto de ecommerce, te invitamos a que nos cuente más acerca de su proyecto."
+            {
+                "description":"Trabajamos con las plataformas más populares de la industria y también realizamos desarrollo a medida si es necesario."
+            },
+            {
+                "description":"Siempre ponemos lo mejor de nosotros y aconsejamos a nuestros clientes sobre cuáles son sus mejores opciones según su caso particular."
+            },
+            {
+                "description":"Si lo que desea es dar el siguiente paso en su proyecto de ecommerce, te invitamos a que nos cuente más acerca de su proyecto."
+            } 
         ]
     }
 }

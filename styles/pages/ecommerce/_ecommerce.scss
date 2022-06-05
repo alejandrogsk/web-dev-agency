@@ -2,6 +2,10 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+
+    & > h2,h6 {
+        text-align: center;
+    }
     & > h2 {text-transform: none;}
 }
 
@@ -16,6 +20,8 @@
         grid-template-columns: 1fr;
         justify-items: center;
     }
+
+    
 
     & > div > h2,h3,p {
         color:$c-white;

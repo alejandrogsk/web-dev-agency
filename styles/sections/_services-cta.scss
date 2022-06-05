@@ -7,6 +7,23 @@
     display: inline-flex;
     padding: .75rem 1rem;
     transition: all 300ms;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+    &__black {
+        background-color: $c-black;
+        border-color: $c-orange-m;
+        & > svg {fill: $c-white;}
+        & > a {color: $c-white;}
+        &:hover {
+            background-color: $c-orange-m;
+            border-color: $c-orange-m;
+            //& > a {color: $c-white;}
+            // & > svg { 
+            //     fill: $c-white;
+            //     transform: translateX(5px);
+            // }
+        }
+    }
 
     &__white {
         background-color: $c-white;
@@ -14,8 +31,8 @@
         & > svg {fill: $c-black;}
         & > a {color: $c-black;}
         &:hover {
-            background-color: $c-orange-l;
-            border-color: $c-orange-l;
+            background-color: $c-orange-m;
+            border-color: $c-orange-m;
             & > a {color: $c-white;}
             & > svg { 
                 fill: $c-white;
@@ -31,8 +48,8 @@
         & > svg {fill: $c-black;}
         & > a {color: $c-black;}
         &:hover {
-            background-color: $c-orange-l;
-            border-color: $c-orange-l;
+            background-color: $c-orange-m;
+            border-color: $c-orange-m;
             & > a {color: $c-white;}
             & > svg { 
                 fill: $c-white;

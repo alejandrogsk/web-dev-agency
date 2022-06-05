@@ -68,7 +68,7 @@
     "for_who": {
         "image": { "url":"/img/images/webpage-1.jpg", "alt":"Agencia de desarrollo web para pymes"},
         "title":"¿Quienes necesitan un sitio web?",
-        "list":[
+        "content":[
             {
                 "title":"Profesionales que venden servicios",
                 "description":"¿Sos una contadora, un abogado, una arquitecta, etc, y necesitas un portfolio web para mostrar tus servicios o trabajos que hayas realizado?"

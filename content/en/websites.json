@@ -66,9 +66,12 @@
         ]
     },
     "for_who": {
-        "image": { "url":"/img/images/webpage-1.jpg", "alt":"Business web development agency"},
+        "image": { 
+            "url":"/img/images/webpage-1.jpg",
+             "alt":"Business web development agency"
+        },
         "title":"Who needs a website?",
-        "list":[
+        "content":[
             {
                 "title":"Professionals who sell services", 
                 "description":"Are you an accountant, a lawyer, an architect, or another professional, and do you need a web portfolio to show your services or work that you have done?"
