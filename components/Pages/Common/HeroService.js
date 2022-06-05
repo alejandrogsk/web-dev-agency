@@ -18,7 +18,7 @@ const HeroService = ({data}) => {
                     </p>
                 ))}
 
-                <div className="service_cta service_cta__transparent a-slideInLeft a-t-500">
+                <div className="service_cta service_cta__transparent ">
                     <a>¡Comenzemos con tu proyecto!</a>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

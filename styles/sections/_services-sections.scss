@@ -22,6 +22,7 @@
     }
 
     &__content {
+        margin-bottom: 8rem;
         grid-column: 2/3;
         grid-row: 2/3;
         & > p {margin-bottom: 2rem;}
