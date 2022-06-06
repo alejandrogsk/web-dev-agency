@@ -8,7 +8,10 @@
         ]
     },
     "google_ads": {
-        "img_url":"/img/images/google-ads-banner-es.png",
+        "img":{
+            "url":"/img/images/google-ads-banner-es.png",
+            "alt": "agencia de marketing ppc"
+        },
         "title": "Hacemos crecer sus ventas con publicidad digital en Google",
         "content": [
             "Google ads es la plataforma de servicios de marketing que provee google. La misma nos permite mostrar anuncios en el buscador de Google, Youtube, sitios web y dispositivos Android.",
@@ -42,25 +45,34 @@
     },
     "divisor": "La publicidad digital es la herramienta publicitaria por excelencia en 2022 ya que es el canal que nos permite alcanzar a nuestros clientes potenciales de forma más eficaz, permitiéndonos además medir los resultados para optimizar nuestra estrategia.",
     "facebook_ads": {
-        "img_url":"/img/images/facebook-ads-banner.png",
+        "img":{
+            "url":"/img/images/facebook-ads-banner.png",
+            "alt":"agencia de publicidad digital"    
+        },
         "title": "4000 millones de person utilizan redes sociales",
         "content": [
             "Seguro que sus clientes se encuentran entre esos usuarios, el negocio de las redes sociales es la venta de publicidad y proveen herramientas para ello.",
             "En Smooth Design desarrollamos campañas de publicidad en redes sociales para que llegues a personas que están interesadas en lo que ofreces pero aún no te conocen."
         ],
-        "list": [
-            {
-                "title": "Publicidad en Instagram, facebook, Linkedin, Pinterest y más",
-                "contnent": "Dependiendo de tu negocio, el segmento de clientes al que apuntes y los objetivos de tu campaña publicitaria, es recomendable una plataforma u otra."
-            },
-            {
-                "title": "Aplicamos distintos enfoques para distintos resultados",
-                "contnent": "Cada campaña publicitaria debe tener un objetivo específico, ya que la comunicación es diferente en una campaña orientada a ventas que es una orientada a branding."
-            }
-        ]
+        "services":{
+            "title":"",
+            "list": [
+                {
+                    "title": "Publicidad en Instagram, facebook, Linkedin, Pinterest y más",
+                    "contnent": "Dependiendo de tu negocio, el segmento de clientes al que apuntes y los objetivos de tu campaña publicitaria, es recomendable una plataforma u otra."
+                },
+                {
+                    "title": "Aplicamos distintos enfoques para distintos resultados",
+                    "contnent": "Cada campaña publicitaria debe tener un objetivo específico, ya que la comunicación es diferente en una campaña orientada a ventas que es una orientada a branding."
+                }
+            ]
+        }
     },
     "email_marketing": {
-        "img_url":"/img/images/emailmarketing.jpg",
+        "img":{
+            "url":"/img/images/emailmarketing.jpg",
+            "alt":"Agencia especialista en email marketing"
+        },
         "title": "Campañas de email marketing",
         "content": [
             "El email es una de las formas más efectivas de contactar con nuestros clientes y una de las más rentables.",
@@ -68,27 +80,30 @@
             "¿Te imaginas mezclar esta estrategia con una campaña de publicidad digital?",
             "Bueno, eso es lo que hacemos en nuestra agencia de marketing."
         ],
-        "list": [
-            {
-                "counter":"01",
-                "title": "Automatización",
-                "contnent": "Desarrollamos un workflow que funciona de manera autónoma enviando emails a tus usuarios en función de las acciones que estos realizan."
-            },
-            {
-                "counter":"02",
-                "title": "Promociones",
-                "contnent": "Enviamos emails promocionales a toda tu lista de clientes para que puedas notificarles de  tus ofertas de manera personalizada."
-            },
-            {
-                "counter":"03",
-                "title": "Newsletters",
-                "contnent": "Una excelente forma de generar una relación con tus clientes, ya que te permite compartir contenido de valor con ellos, mejorando la percepción de tu marca."
-            },
-            {
-                "counter":"04",
-                "title": "Remarketing",
-                "contnent": "Envía contenido transaccional a tu cliente de manera personalizada. Un caso muy común es el email de “Juan olvidaste tu carrito”, con un enlace de nuevo a tu tienda."
-            }
-        ]
+        "services":{
+            "title":"",
+            "list": [
+                {
+                    "counter":"01",
+                    "title": "Automatización",
+                    "contnent": "Desarrollamos un workflow que funciona de manera autónoma enviando emails a tus usuarios en función de las acciones que estos realizan."
+                },
+                {
+                    "counter":"02",
+                    "title": "Promociones",
+                    "contnent": "Enviamos emails promocionales a toda tu lista de clientes para que puedas notificarles de  tus ofertas de manera personalizada."
+                },
+                {
+                    "counter":"03",
+                    "title": "Newsletters",
+                    "contnent": "Una excelente forma de generar una relación con tus clientes, ya que te permite compartir contenido de valor con ellos, mejorando la percepción de tu marca."
+                },
+                {
+                    "counter":"04",
+                    "title": "Remarketing",
+                    "contnent": "Envía contenido transaccional a tu cliente de manera personalizada. Un caso muy común es el email de “Juan olvidaste tu carrito”, con un enlace de nuevo a tu tienda."
+                }
+            ]
+        }
     }
 }

@@ -1,22 +1,26 @@
 import Link from "next/link";
 import React from "react";
 import { useRouter } from "next/router";
-const NavigationDesktop = () => {
-    const {locale}  = useRouter()
-    let homeTitle = "Home";
-    let cta = "let's start"
-    if(locale === "es") {
-        homeTitle = "Inicio"
-        cta = "Contanos Más"
-    }
 
-    const menuContent = [
-         { title: homeTitle, link: "/" },
-         { title: "UX/UI", link: "/uxui" },
-         { title: "Ecommerce", link: "/ecommerce" },
-         { title: "Websites", link: "/websites" },
-         { title: "Marketing", link: "/marketing" },
-    ]
+
+
+
+
+const NavigationDesktop = ({menues}) => {
+    const {locale}  = useRouter()
+
+    let menuContent = menues.es.menu;
+    let cta = menues.es.cta
+    React.useEffect(()=>{
+        if(locale === "es"){
+            menuContent === menues.es.menu
+            cta === menues.es.cta
+        } else {
+            menuContent === menues.en.menu
+            cta === menues.en.cta
+        }
+    },[])
+
 
     return (
         <header className="desktop__header px-layout">
@@ -74,7 +78,12 @@ const NavigationDesktop = () => {
     );
 };
 
-const NavigationMobile = () => {
+const NavigationMobile = ({menues}) => {
+    const {locale}  = useRouter()
+    let menuContent = menues.es.menu;
+    (locale === "es")
+    ?menuContent === menues.es.menu
+    :menuContent === menues.en.menu
     return (
         <>
             <div className="logo-mobile">
@@ -144,45 +153,19 @@ const NavigationMobile = () => {
                     </Linkeable>
                 </li>
             ))} */}
-                        <li className="navbar__responsive--item">
-                            <Link href="/">
+            {
+                menuContent.map((element,i) => (
+                        <li key={i} className="navbar__responsive--item">
+                            <Link href={element.link}>
                                 <a className="navbar__responsive--link">
-                                    Home
+                                    {element.title}
                                 </a>
                             </Link>
                         </li>
-                        <li className="navbar__responsive--item">
-                            <Link href="/ecommerce">
-                                <a className="navbar__responsive--link" href="#">
-                                    Ecommerce
-                                </a>
-                            </Link>
-                        </li>
-                        <li className="navbar__responsive--item">
-                        <Link href="/websites">
-                                <a className="navbar__responsive--link" href="#">
-                                    Websites
-                                </a>
-                            </Link>
-                        </li>
-                        <li className="navbar__responsive--item">
-                            <a className="navbar__responsive--link" href="#">
-                                algun enlace
-                            </a>
-                        </li>
-                        <li className="navbar__responsive--item">
-                            <a className="navbar__responsive--link" href="#">
-                                algun enlace
-                            </a>
-                        </li>
-                        <li className="navbar__responsive--item">
-                            {/* <Link  href="/" locale={language === "es" ? "en" : "es"}>
-                <a onClick={handleClick} className="header__content--lang">{language === "es" ? "en" : "es"}</a>
-            </Link> */}
-                            <a className="navbar__responsive--lang" href="#">
-                                LANG
-                            </a>
-                        </li>
+                ))
+            }
+                        
+            
                     </ul>
                 </div>
             </div>
@@ -190,11 +173,11 @@ const NavigationMobile = () => {
     );
 };
 
-const Navigation = () => {
+const Navigation = ({menues}) => {
     return (
         <>
-            <NavigationDesktop />
-            <NavigationMobile />
+            <NavigationDesktop menues={menues}/>
+            <NavigationMobile menues={menues}/>
         </>
     );
 };
