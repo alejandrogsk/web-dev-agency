@@ -69,11 +69,13 @@ const NavigationDesktop = ({menues}) => {
                     }
                 </ul>
             </nav>
+            <Link href={cta.path}>
             <a
                 className="desktop__cta"
-            >
-                {cta}
+                >
+                {cta.title}
             </a>
+                </Link>
         </header>
     );
 };

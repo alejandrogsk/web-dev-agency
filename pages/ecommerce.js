@@ -28,6 +28,7 @@ export default function Home({ ecommerceData }) {
            {/* <ServicesSection data={data.services}/> */}
            <PaymentPlatformsSections data={data.payments}/>
            <MobileSection data={data.mobile_content} />
+
            <BlackSection data={data.platforms} />
         </main>
     </Layout>

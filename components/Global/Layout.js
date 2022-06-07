@@ -5,7 +5,7 @@ import Navigation from "./Navigation";
 
 const menues = {
     es: {
-        cta: "Contactanos Ahora",
+        cta: {title:"Contactanos Ahora", path:"/contact"},
         menu: [
             { title: "Inicio", link: "/" },
             { title: "UX/UI", link: "/uxui" },
@@ -15,7 +15,7 @@ const menues = {
         ]
     },
     en: {
-        cta:"Contact us now",
+        cta: {title:"Contact us now", path:"/contact"},
         menu: [
             { title: "Home", link: "/" },
             { title: "UX/UI", link: "/uxui" },

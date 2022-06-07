@@ -1,0 +1,114 @@
+.contact-section {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding-top: 12rem;
+  @include respond(tab){
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+  }
+  &__content {
+    & > h1 { margin-bottom: 3rem;}
+  }
+  &__form {}
+}
+
+.contact-form {
+  padding: 0 4rem;
+  @include respond(tab){
+    padding: 0;
+  }
+  &__group {
+    margin-bottom: 4rem;
+    position: relative;
+
+    & > label {
+      position: absolute;
+      top: 6px;
+      left:10px;
+      font-size: 3rem;
+      z-index: 1;
+      transition: all 300ms;
+      @include respond(tab){
+        font-size:2.5rem;
+      }
+    }
+    
+    & > input {
+      outline: none;
+      border: none;
+      border-bottom: 1px solid black;
+      background-color: transparent;
+      z-index: 3;
+      width: 100%;
+      height: 5rem;
+      font-size: 3rem;
+      @include respond(tab){
+        font-size:2.5rem;
+      }
+
+      &:valid,
+      &:focus {
+        //border-bottom: 1px solid black;
+        & + label {
+          top: -12px;
+          left:2px;
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    & > textarea {
+      width: 100%;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid black;
+      background-color: transparent;
+      z-index: 3;
+      width: 100%;
+      min-height: 5rem;
+      font-size: 3rem;
+      @include respond(tab){
+        font-size:2.5rem;
+      }
+      &:valid, /// no se si esta bien
+      //&:not(:invalid),
+      &:focus {
+        //border-bottom: 1px solid black;
+        & + label {
+          top: -12px;
+          left:2px;
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+
+     
+ 
+  
+  }
+  & > button {
+    cursor: pointer;
+    color: $c-black;
+    background-color: $c-white;
+    border: 2px solid $c-orange-m;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    border-radius:1rem;
+    transition: all 300ms;
+
+    @include respond(tab) {
+      width: 100%;
+      background-color: $c-orange-m;
+      color: $c-white;
+    }
+    &:hover {
+      background-color: $c-orange-m;
+      color: $c-white;
+    }
+  }
+
+
+}
+

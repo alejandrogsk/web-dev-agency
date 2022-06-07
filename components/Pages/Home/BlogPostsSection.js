@@ -1,10 +1,8 @@
 import React from "react";
-
 const BlogPostsSection = ({ blog }) => {
     const { before_title, title, posts } = blog;
-
     return (
-        <section className="p-layout home-bs">
+        <section className={`p-layout home-bs`}>
 
                 <h6>
                     {before_title}
