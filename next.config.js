@@ -3,7 +3,7 @@
 
 const nextConfig = {
   reactStrictMode: true,
-
+  api: { bodyParse:false, },
   i18n: {
     locales: ['es', 'en'],
     // This is the default locale you want to be used when visiting

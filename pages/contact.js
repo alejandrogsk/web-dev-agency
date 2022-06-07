@@ -3,7 +3,37 @@ import React from 'react'
 
 import TextareaAutosize from 'react-textarea-autosize';
 
+const sendFormData = async (dataToSubmit) => {
+    console.log('dataToSubmit',dataToSubmit)
+    const req = await fetch('/api/contact', {
+        method: "POST",
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+          },
+        body: JSON.stringify(dataToSubmit)
+    });
+    const res = await req.json();
+    return res
+}
+
+
 const contact = () => {
+
+    const [ formData, setFormData ] = React.useState({
+        name:"alejandro",
+        email: "alejandrogsk9900@gmail.com",
+        phone: "1233214124",
+        message: "Hola tengo pesado hacer una tienda online y me gustaría saber cuanto cuesta, es para una empresa de amoblamientos"
+    })
+
+    const [successMessage, setSuccessMessage] = React.useState();
+    
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+        const res = await sendFormData(formData)
+        setSuccessMessage(res.response)
+    }
   return (
     <section className="contact-section p-layout">
         <div className="contact-section__content">
@@ -13,7 +43,7 @@ const contact = () => {
         </div>
         <div className="contact-section__form">
 
-            <form className="contact-form">
+            <form onSubmit={handleSubmit} className="contact-form">
                 <div className="contact-form__group">
                     <input 
                         name="userName" type="text"
@@ -41,6 +71,10 @@ const contact = () => {
                 <TextareaAutosize required />
                         <label>Message</label>
                 </div>
+
+                 {
+                    successMessage && <span>{successMessage}</span>
+                 }   
 
                 <button type="submit">Send form</button>
 
