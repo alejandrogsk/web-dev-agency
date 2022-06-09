@@ -10,7 +10,7 @@ import HeadComponent from '../components/Global/Head';
 export default function Home({ homeData }) {
   return (
     <div >
-    <HeadComponent
+      <HeadComponent
         title="Especialistas en sitios web | Crespo - Entre Ríos." 
         metaDescription="Especialistas en desarrollo web, ecommerce y marketing digital. | PYMES - Startups"
       />

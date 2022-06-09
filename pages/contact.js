@@ -1,4 +1,10 @@
-import React from 'react'
+export default function  contact() {
+    return(
+        <h1>Contact page</h1>
+    )
+}
+
+/*import React from 'react'
 
 
 import TextareaAutosize from 'react-textarea-autosize';
@@ -86,4 +92,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default contact*/
