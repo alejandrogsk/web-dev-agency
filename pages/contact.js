@@ -1,95 +1,49 @@
+import HeadComponent from "../components/Global/Head";
+import Layout from "../components/Global/Layout";
+import ContactForm from "../components/Pages/Contact/ContactForm";
+
+
 export default function  contact() {
     return(
-        <h1>Contact page</h1>
-    )
-}
-
-/*import React from 'react'
 
 
-import TextareaAutosize from 'react-textarea-autosize';
+<div>
+<HeadComponent
+    title="Agencia especializada diseño y desarrollo de ECOMMERCE | 2022" 
+    metaDescription="Tu tienda online a medida. Creamos tu tienda para que puedas comenzar a VENDER más online en 2022"
+  />
 
-const sendFormData = async (dataToSubmit) => {
-    console.log('dataToSubmit',dataToSubmit)
-    const req = await fetch('/api/contact', {
-        method: "POST",
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-          },
-        body: JSON.stringify(dataToSubmit)
-    });
-    const res = await req.json();
-    return res
-}
-
-
-const contact = () => {
-
-    const [ formData, setFormData ] = React.useState({
-        name:"alejandro",
-        email: "alejandrogsk9900@gmail.com",
-        phone: "1233214124",
-        message: "Hola tengo pesado hacer una tienda online y me gustaría saber cuanto cuesta, es para una empresa de amoblamientos"
-    })
-
-    const [successMessage, setSuccessMessage] = React.useState();
-    
-    const handleSubmit = async (e) => {
-        e.preventDefault()
-        const res = await sendFormData(formData)
-        setSuccessMessage(res.response)
-    }
-  return (
-    <section className="contact-section p-layout">
+<Layout>
+    <main className="relative overflow-x-clip">
+    <section className="contact-section p-layout ">
         <div className="contact-section__content">
-            <h1>Estamos encantados de conocerte</h1>
+            
+            <h1>Estamos encantados de conocerte<span className="orange-point">.</span></h1>
             <p>No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en don, resó como texto de relleno en don.</p>
-            <span></span>
+            <span>smooth@design.com</span>
         </div>
         <div className="contact-section__form">
 
-            <form onSubmit={handleSubmit} className="contact-form">
-                <div className="contact-form__group">
-                    <input 
-                        name="userName" type="text"
-                        required
-                        />
-                        <label>Name</label>
-                </div>
-
-                <div className="contact-form__group">
-                    <input 
-                        name="userEmail" type="text"
-                        required
-                        />
-                        <label>Email</label>
-                </div>
-
-                <div className="contact-form__group">
-                    <input 
-                        name="userPhone" type="text"
-                        required
-                        />
-                        <label>Phone</label>
-                </div>
-                <div className="contact-form__group">
-                <TextareaAutosize required />
-                        <label>Message</label>
-                </div>
-
-                 {
-                    successMessage && <span>{successMessage}</span>
-                 }   
-
-                <button type="submit">Send form</button>
-
-               
-            </form>
+        <ContactForm />
+            
 
         </div>
+
+        <svg className='contact-section__svg' width="1000" height="921" viewBox="0 0 1000 921" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fillRule="evenodd" clipRule="evenodd" d="M999.641 498.849C991.957 693.494 810.289 810.813 625.397 872.135C435.762 935.029 210.903 958.683 87.9121 801.234C-45.6911 630.199 -18.0068 387.773 110.312 212.739C236.848 40.138 455.211 -43.2235 658.943 22.3199C864.449 88.4343 1008.16 283.138 999.641 498.849Z" fill="url(#paint0_linear_461_2)"/>
+<defs>
+<linearGradient id="paint0_linear_461_2" x1="1000" y1="460.143" x2="0" y2="460.143" gradientUnits="userSpaceOnUse">
+<stop stopColor="#F84525"/>
+<stop offset="1" stopColor="#FFC300"/>
+</linearGradient>
+</defs>
+</svg>
+
     </section>
-  )
+    </main>
+</Layout>
+</div>
+    )
 }
 
-export default contact*/
+

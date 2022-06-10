@@ -1,114 +1,199 @@
 .contact-section {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  padding-top: 12rem;
-  @include respond(tab){
-    grid-template-columns: 1fr;
-    row-gap: 4rem;
-  }
-  &__content {
-    & > h1 { margin-bottom: 3rem;}
-  }
-  &__form {}
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 12rem;
+    position: relative;
+  overflow-x: hidden;
+
+    @include respond(tab) {
+        grid-template-columns: 1fr;
+        row-gap: 4rem;
+    }
+
+    &__svg {
+      position: absolute;
+      left: auto;
+      top: -200px;
+      right: -850px;
+    }
+
+    &__content,&__form {
+      z-index: 10;
+    }
+
+    &__content {
+        & > h1 {
+            margin-bottom: 3rem;
+        }
+
+        & > p {
+
+        }
+
+        & > span {
+          margin-top: 2rem;
+          font-size: 2.5rem;
+          font-weight: 500;
+        }
+    }
+    &__form {
+      
+    }
 }
 
 .contact-form {
-  padding: 0 4rem;
-  @include respond(tab){
-    padding: 0;
-  }
-  &__group {
-    margin-bottom: 4rem;
-    position: relative;
-
-    & > label {
-      position: absolute;
-      top: 6px;
-      left:10px;
-      font-size: 3rem;
-      z-index: 1;
-      transition: all 300ms;
-      @include respond(tab){
-        font-size:2.5rem;
-      }
+    padding: 0 4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    @include respond(tab) {
+        padding: 0;
     }
-    
-    & > input {
-      outline: none;
-      border: none;
-      border-bottom: 1px solid black;
-      background-color: transparent;
-      z-index: 3;
-      width: 100%;
-      height: 5rem;
-      font-size: 3rem;
-      @include respond(tab){
-        font-size:2.5rem;
-      }
+    &__group {
+        margin-bottom: 4rem;
+        position: relative;
 
-      &:valid,
-      &:focus {
-        //border-bottom: 1px solid black;
-        & + label {
-          top: -12px;
-          left:2px;
-          font-size: 1.5rem;
+        & > label {
+            position: absolute;
+            top: 6px;
+            left: 10px;
+            font-size: 3rem;
+            z-index: 1;
+            transition: all 300ms;
+            @include respond(tab) {
+                font-size: 2.5rem;
+            }
         }
-      }
-    }
 
-    & > textarea {
-      width: 100%;
-      outline: none;
-      border: none;
-      border-bottom: 1px solid black;
-      background-color: transparent;
-      z-index: 3;
-      width: 100%;
-      min-height: 5rem;
-      font-size: 3rem;
-      @include respond(tab){
-        font-size:2.5rem;
-      }
-      &:valid, /// no se si esta bien
+        & > input {
+            outline: none;
+            border: none;
+            border-bottom: 1px solid black;
+            background-color: transparent;
+            z-index: 3;
+            width: 100%;
+            height: 5rem;
+            font-size: 3rem;
+            @include respond(tab) {
+                font-size: 2.5rem;
+            }
+
+            &:valid,
+            &:focus {
+                //border-bottom: 1px solid black;
+                & + label {
+                    top: -12px;
+                    left: 2px;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        & > textarea {
+            width: 100%;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid black;
+            background-color: transparent;
+            z-index: 3;
+            width: 100%;
+            min-height: 5rem;
+            font-size: 3rem;
+            @include respond(tab) {
+                font-size: 2.5rem;
+            }
+            &:valid, /// no se si esta bien
       //&:not(:invalid),
       &:focus {
-        //border-bottom: 1px solid black;
-        & + label {
-          top: -12px;
-          left:2px;
-          font-size: 1.5rem;
+                //border-bottom: 1px solid black;
+                & + label {
+                    top: -12px;
+                    left: 2px;
+                    font-size: 1.5rem;
+                }
+            }
         }
-      }
     }
 
-
-     
- 
-  
-  }
-  & > button {
-    cursor: pointer;
-    color: $c-black;
-    background-color: $c-white;
-    border: 2px solid $c-orange-m;
-    padding: 1rem 1.5rem;
-    font-size: 2rem;
-    text-transform: capitalize;
-    border-radius:1rem;
-    transition: all 300ms;
-
-    @include respond(tab) {
-      width: 100%;
-      background-color: $c-orange-m;
-      color: $c-white;
+    &__message {
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+        margin: 0 0 2rem;
     }
-    &:hover {
-      background-color: $c-orange-m;
-      color: $c-white;
+
+    //This is for CHECKBOX options
+
+    &__services {
+      margin-bottom: 4rem;
+        & > span {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        &--options {
+
+          display: grid;
+          max-width: 100%;
+          gap: 1rem;
+          grid-template-columns: repeat(3, minmax(min-content,max-content));
+          
+          @include respond(phone-tab) {
+            grid-template-columns: repeat(2, minmax(min-content,max-content));
+          }
+
+          &> div {
+            display: grid;
+            align-items: center;
+            grid-template-columns: max-content 1fr;
+
+            & > label {
+              font-size: 2rem;
+              margin-left: 0.5rem;
+            }
+            & > input {
+              border-radius: 50%;
+            }
+          }
+        }
     }
-  }
+    //this is for file upload
+    &__file {
+        margin-bottom: 4rem;
+        & > label {
+            font-size: 3rem;
+            display: block;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        & > input { font-size: 2rem; @include respond(phone-tab){font-size: 1.25rem;}}
+    }
 
+    & > button {
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.2),
+            0 4px 6px -4px rgb(0 0 0 / 0.2);
 
+        cursor: pointer;
+        color: $c-black;
+        background-color: $c-white;
+        border: 2px solid $c-orange-m;
+        padding: 1rem 1.5rem;
+        font-size: 2rem;
+        text-transform: capitalize;
+        border-radius: 1rem;
+        transition: all 300ms;
+        display: inline-block;
+        max-width: 30%;
+        @include respond(tab) {
+          max-width: 1000%;
+           
+            background-color: $c-orange-m;
+            color: $c-white;
+        }
+        &:hover {
+            background-color: $c-orange-m;
+            color: $c-white;
+            box-shadow: 0 10px 15px -4px rgb(0 0 0 / 0.4),
+                0 4px 6px -4px rgb(0 0 0 / 0.4);
+        }
+    }
 }
-
