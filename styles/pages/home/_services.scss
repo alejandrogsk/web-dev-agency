@@ -31,7 +31,10 @@
 
         &--item {
             cursor: pointer;
+           
+
             & > div  {
+                border-radius: .2rem;
                 overflow: hidden;
                 &> img {
                     transition: all 300ms;

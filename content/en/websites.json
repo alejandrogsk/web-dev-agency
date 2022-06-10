@@ -6,7 +6,11 @@
             "Each company has its specific needs, depending on the product or service it sells.",
             "We design websites to client specifications, but we also advise clients who know they need a website but don't know where to start.",
             "We work with established companies that want to give a more institutional image and small businesses that need to develop their online presence for the first time."
-        ]
+        ],
+        "button":{
+            "title": "Tell us about your project",
+            "link": "/contact"
+        }
     },
     "services": {
         "top_title":"services",
@@ -66,6 +70,10 @@
         ]
     },
     "for_who": {
+        "button":{
+            "title":"Let's start with your project!",
+            "link":"/contact"
+        },
         "image": { 
             "url":"/img/images/webpage-1.jpg",
              "alt":"Business web development agency"

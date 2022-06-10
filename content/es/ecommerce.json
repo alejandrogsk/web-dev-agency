@@ -7,7 +7,11 @@
          "No importa si se dedica al comercio minorista o mayorista, sus clientes quieren ver que tiene tu empresa para ofrecer.",
          "En Smooth Design nos ocupamos de los aspectos técnicos y de diseño para ayudarte a tener tu tienda online vendiendo tán pronto como sea posible."
             
-        ]
+        ],
+        "button":{
+            "title": "Contanos sobre tu proyecto",
+            "link": "/contact"
+        }
     },
     "services": {
         "top_title":"Servicios",
@@ -94,6 +98,10 @@
         "subtitle_two":"De ahí la importancia del diseño móvil en todo proyecto de ecommerce."
     },
     "platforms": {
+        "button":{
+            "title":"Comencemos con tu proyecto",
+            "link":"/contact"
+        },
         "image": {
             "url":"/img/images/ecommerce-page-1.jpg",
             "alt":"Diseño y desarrollo de ecommerce a medida"

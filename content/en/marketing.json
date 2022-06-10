@@ -5,7 +5,11 @@
         "content": [
             "We help companies from all sectors to develop a comprehensive digital marketing strategy to reach more customers.",
             "On average, a person spends two and a half hours on social networks per day and you know that you have to be where your customers are."
-        ]
+        ],
+        "button":{
+            "title": "Tell us about your project",
+            "link": "/contact"
+        }
     },
     "google_ads": {
         "img":{

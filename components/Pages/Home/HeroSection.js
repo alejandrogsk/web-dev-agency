@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 
 const HeroSection = ({ hero }) => {
-    const { title, subtitle, button } = hero;
+    const { title, subtitle, button,card } = hero;
 
     return (
         <>
@@ -15,12 +16,14 @@ const HeroSection = ({ hero }) => {
 
                     <p className="a-slideInLeft a-t-700">{subtitle}</p>
 
+                        <Link href={button.link}>
                     <div className="home-hs_cta a-slideInLeft a-t-500">
-                        <a>{button}</a>
-                        {/* <svg xmlns="http://www.w3.org/2000/svg" width="inherit" height="inherit" viewBox="0 0 24 24">
+                        <a>{button.title}</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="inherit" height="inherit" viewBox="0 0 24 24">
                             <polygon points="7.293 4.707 14.586 12 7.293 19.293 8.707 20.707 17.414 12 8.707 3.293 7.293 4.707"/>
-                        </svg>     */}
+                        </svg>    
                     </div>
+                        </Link>
 
                 </div>
             
@@ -34,7 +37,7 @@ const HeroSection = ({ hero }) => {
                         <div>
                             <span>+</span>
                             <h6>200%</h6>
-                            <p>Es lo que crecerá el ecommerce los proxioms años.</p>
+                            <p>{card}</p>
                         </div>
                         <svg
                             width="205"
@@ -71,14 +74,14 @@ const HeroSection = ({ hero }) => {
 
 
             </section>
-<HeroMobile />
+<HeroMobile card={card} />
         </>
     );
 };
 
 export default HeroSection;
 
-const HeroMobile = () => {
+const HeroMobile = ({card}) => {
     return (
         <div className="home-hs-m__img">
             <img
@@ -90,7 +93,7 @@ const HeroMobile = () => {
                 <div>
                     <span>+</span>
                     <h6>200%</h6>
-                    <p>Es lo que crecerá el ecommerce los proxioms años.</p>
+                    <p>{card}</p>
                 </div>
                 <svg
                     width="307"

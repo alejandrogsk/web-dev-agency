@@ -16,7 +16,7 @@
         
         
         & > h1 {
-            font-size: 6.5rem;
+            font-size: 5rem;
             margin-top: 12rem;
             @include respond(desktop-small){
                 margin-top: 8rem;
@@ -54,12 +54,17 @@
             align-items: center;
             background-color: $c-white;
             border: solid 2px $c-orange-m;
-            border-radius: 1rem;
+            border-radius: .2rem;
             box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
             cursor: pointer;
             display: inline-flex;
             padding: .75rem 1rem;
             transition: all 300ms;
+
+
+            @include respond(tab){
+                background-color: $c-orange-m;
+            }
 
             & > svg,a {transition: all 300ms;}
 
@@ -68,12 +73,21 @@
                 width: 15px;
                 fill: $c-black;
                 margin-left: 3px;
+
+                @include respond(tab) {
+                    fill: $c-white;
+                }
             }
+
+        
+
+
             & > a {
                 font-weight: 500;
                 font-size: 2rem;
                 color: $c-black;
                 @include respond(tab) {
+                    color: $c-white;
                     font-size: 1.75rem;
                 }
                 // @include respond(phone-tab){
@@ -90,12 +104,13 @@
             }
 
             &:hover {
-                background-color: $c-orange-l;
-                border-color: $c-orange-l;
+                background-color: $c-orange-m;
+                border-color: $c-orange-m;
                 & > a {color: $c-white;}
                 & > svg { 
                     fill: $c-white;
                     transform: translateX(5px);
+                    
                 }
 
 
@@ -128,7 +143,7 @@
             height: 175px;
             width: 34rem;
             background-color: white;
-            border-radius: 1rem;
+            border-radius: .2rem;
             overflow:hidden;
 
             top: 10rem;
@@ -222,7 +237,7 @@
             height: 175px;
             width: 330px;
             background-color: white;
-            border-radius: 2rem;
+            border-radius: .2rem;
             overflow:hidden;
 
             bottom: -10rem;

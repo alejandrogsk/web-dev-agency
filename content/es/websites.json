@@ -6,7 +6,11 @@
             "Cada empresa tiene sus necesidades específicas, dependiendo del producto o servicio que venda.",
             "Nosotros diseñamos sitios web siguiendo las especificaciones del cliente, pero también aconsejamos a clientes que saben que necesitan un sitio web, pero no saben por dónde empezar.",
             "Trabajamos con empresas establecidas que quieren dar una imagen más institucional y pequeños negocios que necesitan desarrollar su presencia online por primera vez."
-        ]
+        ],
+        "button":{
+            "title": "Contanos sobre tu proyecto",
+            "link": "/contact"
+        }
     },
     "services": {
         "top_title":"servicios",
@@ -66,6 +70,10 @@
         ]
     },
     "for_who": {
+        "button":{
+            "title":"Comencemos con tu proyecto",
+            "link":"/contact"
+        },
         "image": { "url":"/img/images/webpage-1.jpg", "alt":"Agencia de desarrollo web para pymes"},
         "title":"¿Quienes necesitan un sitio web?",
         "content":[

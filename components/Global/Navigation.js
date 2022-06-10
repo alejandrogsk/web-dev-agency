@@ -1,25 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import { useRouter } from "next/router";
 
-
-
-
-
-const NavigationDesktop = ({menues}) => {
-    const {locale}  = useRouter()
-
-    let menuContent = menues.es.menu;
-    let cta = menues.es.cta
-    React.useEffect(()=>{
-        if(locale === "es"){
-            menuContent === menues.es.menu
-            cta === menues.es.cta
-        } else {
-            menuContent === menues.en.menu
-            cta === menues.en.cta
-        }
-    },[])
+const NavigationDesktop = ({ menu, cta }) => {
 
 
     return (
@@ -65,11 +47,11 @@ const NavigationDesktop = ({menues}) => {
             <nav className="desktop__nav">
                 <ul>
                     {
-                        menuContent.map((element, i) => <Link href={element.link} key={i}><a>{element.title}</a></Link>)
+                        menu.map((element, i) => <Link href={element.link} key={i}><a>{element.title}</a></Link>)
                     }
                 </ul>
             </nav>
-            <Link href={cta.path}>
+            <Link href={cta.link}>
             <a
                 className="desktop__cta"
                 >
@@ -80,12 +62,8 @@ const NavigationDesktop = ({menues}) => {
     );
 };
 
-const NavigationMobile = ({menues}) => {
-    const {locale}  = useRouter()
-    let menuContent = menues.es.menu;
-    (locale === "es")
-    ?menuContent === menues.es.menu
-    :menuContent === menues.en.menu
+const NavigationMobile = ({menu}) => {
+
     return (
         <>
             <div className="logo-mobile">
@@ -141,22 +119,8 @@ const NavigationMobile = ({menues}) => {
 
                 <div className="navbar__responsive--nav">
                     <ul className="navbar__responsive--list">
-                        {/* {navigation.map((item, i) => (
-                <li key={i} className="navbar__responsive--item">
-                    <Linkeable
-                     to={item.path} 
-                     smooth={true} 
-                     duration={1000}
-                     onClick={handleClick}
-                    >
-                        <a className="navbar__responsive--link">
-                            {item.title}
-                        </a>
-                    </Linkeable>
-                </li>
-            ))} */}
             {
-                menuContent.map((element,i) => (
+                menu.map((element,i) => (
                         <li key={i} className="navbar__responsive--item">
                             <Link href={element.link}>
                                 <a className="navbar__responsive--link">
@@ -175,11 +139,11 @@ const NavigationMobile = ({menues}) => {
     );
 };
 
-const Navigation = ({menues}) => {
+const Navigation = ({menu, cta}) => {
     return (
         <>
-            <NavigationDesktop menues={menues}/>
-            <NavigationMobile menues={menues}/>
+            <NavigationDesktop menu={menu} cta={cta}/>
+            <NavigationMobile menu={menu}/>
         </>
     );
 };

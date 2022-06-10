@@ -6,7 +6,11 @@
             "Having an online store is an essential requirement for any company that sells products in 2022.",
          "It doesn't matter if you're in retail or wholesale, your customers want to see what your business has to offer.",
          "At Smooth Design we take care of the technical and design aspects to help you get your online store selling as quickly as possible."
-        ]
+        ],
+        "button":{
+            "title": "Tell us about your project",
+            "link": "/contact"
+        }
     },
     "services": {
         "top_title":"Services",
@@ -88,6 +92,10 @@
         "subtitle_two":"Hence the importance of mobile design in any ecommerce project."
     },
     "platforms": {
+        "button":{
+            "title":"Let's start with your project!",
+            "link":"/contact"
+        },
         "image": {
             "url":"/img/images/ecommerce-page-1.jpg",
             "alt":"Custom design and development of ecommerce"

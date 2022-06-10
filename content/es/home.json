@@ -2,7 +2,11 @@
     "hero": {
         "title":"Diseño y desarrollo de soluciones digitales",
         "subtitle": "Brindamos nuestros conocimientos y recursos para que su empresa esté al alcance de las expectativas y nuevas necesidades de sus clientes.",
-        "button": "Contactanos"
+        "button": {
+            "title":"Servicios de ecommerce",
+            "link":"/ecommerce"
+        },
+        "card": "Es lo que creció el ecommerce la última decada"
     },
     "methodology": {
         "before_title": "Metodología",
@@ -32,22 +36,22 @@
         "services_list": [
             {
                 "title":"Diseño UX/UI",
-                "img_url":"/img/images/ecommerce.jpg",
+                "img_url":"/img/images/uxui.jpg",
                 "link": "ver más"
             },
             {
                 "title":"Desarrollo de ecommerce",
-                "img_url":"/img/images/uxui.jpg",
-                "link": "ver más"
-            },
-            {
-                "title":"Desarrollo web",
                 "img_url":"/img/images/ecommerce.jpg",
                 "link": "ver más"
             },
             {
+                "title":"Desarrollo web",
+                "img_url":"/img/images/web-development.jpg",
+                "link": "ver más"
+            },
+            {
                 "title":"Marketing Digital",
-                "img_url":"/img/images/uxui.jpg",
+                "img_url":"/img/images/marketing.jpg",
                 "link": "ver más"
             }
         ]

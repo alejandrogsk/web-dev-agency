@@ -5,7 +5,11 @@
         "content": [
             "Ayudamos a empresas de todos los rubros a desarrollar una estrategia integral de marketing digital para llegar a más clientes.",
             "De media una persona pasa dos horas y media en redes sociales por día y sabes bien que tenes que estar donde están tus clientes."
-        ]
+        ],
+        "button":{
+            "title": "Contanos sobre tu proyecto",
+            "link": "/contact"
+        }
     },
     "google_ads": {
         "img":{
